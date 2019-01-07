@@ -1,10 +1,28 @@
 {
   "name": "makeschoool-challenge",
   "dependencies": {
-    "twitter-proxy": "^2.0.0",
-    "http-server": "^0.9.0"
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "http-server": "^0.9.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-redux": "^6.0.0",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.1",
+    "twitter-proxy": "^2.0.0"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "start:webpack": "webpack-dev-server --mode development --hot --open",
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.2.0",
+    "webpack-dev-server": "^3.1.14"
   }
 }
