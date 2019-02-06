@@ -9,8 +9,8 @@ const yCombinatorReducer = (state = initialState, action) => {
       tweets: action.payload,
     };
     default:
-    return state
-  }
+    return state;
+  };
 }
 
 export default yCombinatorReducer;

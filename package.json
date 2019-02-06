@@ -1,4 +1,5 @@
 {
+  "author": "Godfrey Tutu",
   "name": "makeschoool-challenge",
   "dependencies": {
     "babel-plugin-transform-object-rest-spread": "^6.26.0",

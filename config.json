@@ -1,7 +1,8 @@
-{
-  "consumerKey": "tKOGcNT8CCmTX4SLR13XBvzia",
-  "consumerSecret": "OTRxwqJvMd4jCFDXbiwBmrhsOuTzOrmUNJMWsGGypluV99nywh",
+ {
+  "consumerKey": "",
+  "consumerSecret": "",
   "accessToken": "",
   "accessTokenSecret": "",
-  "port": "7890"
+  "port": 7890,
+  "name": "Godfrey Tutu"
 }
