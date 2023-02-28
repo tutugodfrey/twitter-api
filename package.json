@@ -3,7 +3,7 @@
   "name": "makeschoool-challenge",
   "dependencies": {
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "http-server": "^0.9.0",
+    "http-server": "^14.1.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-redux": "^6.0.0",
